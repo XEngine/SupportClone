@@ -4,8 +4,8 @@ namespace XEngine\Support;
 
 use ArrayAccess;
 use JsonSerializable;
-use Illuminate\Contracts\Support\Jsonable;
-use Illuminate\Contracts\Support\Arrayable;
+use XEngine\Contracts\Support\Jsonable;
+use XEngine\Contracts\Support\Arrayable;
 
 class Fluent implements ArrayAccess, Arrayable, Jsonable, JsonSerializable
 {

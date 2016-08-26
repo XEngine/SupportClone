@@ -2,7 +2,7 @@
 
 namespace XEngine\Support;
 
-use Illuminate\Contracts\Support\Htmlable;
+use XEngine\Contracts\Support\Htmlable;
 
 class HtmlString implements Htmlable
 {

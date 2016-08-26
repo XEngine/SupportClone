@@ -4,10 +4,10 @@ namespace XEngine\Support;
 
 use Countable;
 use JsonSerializable;
-use Illuminate\Contracts\Support\Jsonable;
-use Illuminate\Contracts\Support\Arrayable;
-use Illuminate\Contracts\Support\MessageProvider;
-use Illuminate\Contracts\Support\MessageBag as MessageBagContract;
+use XEngine\Contracts\Support\Jsonable;
+use XEngine\Contracts\Support\Arrayable;
+use XEngine\Contracts\Support\MessageProvider;
+use XEngine\Contracts\Support\MessageBag as MessageBagContract;
 
 class MessageBag implements Arrayable, Countable, Jsonable, JsonSerializable, MessageBagContract, MessageProvider
 {
@@ -67,7 +67,7 @@ class MessageBag implements Arrayable, Countable, Jsonable, JsonSerializable, Me
     /**
      * Merge a new array of messages into the bag.
      *
-     * @param  \Illuminate\Contracts\Support\MessageProvider|array  $messages
+     * @param  \XEngine\Contracts\Support\MessageProvider|array  $messages
      * @return $this
      */
     public function merge($messages)

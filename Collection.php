@@ -11,8 +11,8 @@ use JsonSerializable;
 use IteratorAggregate;
 use InvalidArgumentException;
 use XEngine\Support\Traits\Macroable;
-use Illuminate\Contracts\Support\Jsonable;
-use Illuminate\Contracts\Support\Arrayable;
+use XEngine\Contracts\Support\Jsonable;
+use XEngine\Contracts\Support\Arrayable;
 
 class Collection implements ArrayAccess, Arrayable, Countable, IteratorAggregate, Jsonable, JsonSerializable
 {

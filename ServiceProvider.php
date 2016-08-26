@@ -2,14 +2,14 @@
 
 namespace XEngine\Support;
 
-use Illuminate\Console\Events\ArtisanStarting;
+use XEngine\Console\Events\ArtisanStarting;
 
 abstract class ServiceProvider
 {
     /**
      * The application instance.
      *
-     * @var \Illuminate\Contracts\Foundation\Application
+     * @var \XEngine\Contracts\Foundation\Application
      */
     protected $app;
 
@@ -37,7 +37,7 @@ abstract class ServiceProvider
     /**
      * Create a new service provider instance.
      *
-     * @param  \Illuminate\Contracts\Foundation\Application  $app
+     * @param  \XEngine\Contracts\Foundation\Application  $app
      * @return void
      */
     public function __construct($app)

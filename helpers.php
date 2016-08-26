@@ -4,7 +4,7 @@ use XEngine\Support\Arr;
 use XEngine\Support\Str;
 use XEngine\Support\Collection;
 use XEngine\Support\Debug\Dumper;
-use Illuminate\Contracts\Support\Htmlable;
+use XEngine\Contracts\Support\Htmlable;
 
 if (! function_exists('append_config')) {
     /**
@@ -503,7 +503,7 @@ if (! function_exists('e')) {
     /**
      * Escape HTML entities in a string.
      *
-     * @param  \Illuminate\Contracts\Support\Htmlable|string  $value
+     * @param  \XEngine\Contracts\Support\Htmlable|string  $value
      * @return string
      */
     function e($value)
