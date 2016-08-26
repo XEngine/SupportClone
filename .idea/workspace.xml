@@ -2,95 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a884c550-7948-4c26-a842-0087dc072290" name="Default" comment="Init">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Auth/Access/Authorizable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Auth/Access/Gate.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Auth/Authenticatable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Auth/CanResetPassword.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Auth/Factory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Auth/Guard.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Auth/PasswordBroker.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Auth/PasswordBrokerFactory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Auth/StatefulGuard.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Auth/SupportsBasicAuth.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Auth/UserProvider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Broadcasting/Broadcaster.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Broadcasting/Factory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Broadcasting/ShouldBroadcast.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Broadcasting/ShouldBroadcastNow.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Bus/Dispatcher.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Bus/QueueingDispatcher.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Cache/Factory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Cache/Repository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Cache/Store.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Config/Repository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Console/Application.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Console/Kernel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Container/BindingResolutionException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Container/Container.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Container/ContextualBindingBuilder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Cookie/Factory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Cookie/QueueingFactory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Database/ModelIdentifier.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Debug/ExceptionHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Encryption/DecryptException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Encryption/EncryptException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Encryption/Encrypter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Events/Dispatcher.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Filesystem/Cloud.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Filesystem/Factory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Filesystem/FileNotFoundException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Filesystem/Filesystem.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Foundation/Application.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Hashing/Hasher.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Http/Kernel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Logging/Log.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Mail/MailQueue.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Mail/Mailable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Mail/Mailer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Notifications/Dispatcher.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Notifications/Factory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Pagination/LengthAwarePaginator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Pagination/Paginator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Pipeline/Hub.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Pipeline/Pipeline.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Queue/EntityNotFoundException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Queue/EntityResolver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Queue/Factory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Queue/Job.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Queue/Monitor.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Queue/Queue.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Queue/QueueableCollection.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Queue/QueueableEntity.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Queue/ShouldQueue.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Redis/Database.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Routing/Registrar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Routing/ResponseFactory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Routing/UrlGenerator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Routing/UrlRoutable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Support/Arrayable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Support/Htmlable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Support/Jsonable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Support/MessageBag.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Support/MessageProvider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Support/Renderable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Validation/Factory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Validation/ValidatesWhenResolved.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/Validation/Validator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/View/Factory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Contracts/View/View.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Collection.php" afterPath="$PROJECT_DIR$/Collection.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Composer.php" afterPath="$PROJECT_DIR$/Composer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fluent.php" afterPath="$PROJECT_DIR$/Fluent.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HtmlString.php" afterPath="$PROJECT_DIR$/HtmlString.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Manager.php" afterPath="$PROJECT_DIR$/Manager.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageBag.php" afterPath="$PROJECT_DIR$/MessageBag.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceProvider.php" afterPath="$PROJECT_DIR$/ServiceProvider.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Traits/CapsuleManagerTrait.php" afterPath="$PROJECT_DIR$/Traits/CapsuleManagerTrait.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ViewErrorBag.php" afterPath="$PROJECT_DIR$/ViewErrorBag.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/helpers.php" afterPath="$PROJECT_DIR$/helpers.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/Support.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
     </list>
     <ignored path="Support.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -141,11 +59,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="helpers.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="helpers.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/helpers.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+            <state relative-caret-position="285">
+              <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+              <folding>
+                <element signature="e#7#31#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -314,7 +244,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1472207862682</updated>
-      <workItem from="1472207863824" duration="2249000" />
+      <workItem from="1472207863824" duration="2331000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1472208410162</created>
@@ -351,24 +281,31 @@
       <option name="project" value="LOCAL" />
       <updated>1472209841996</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Init">
+      <created>1472210125179</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1472210125179</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2249000" />
+    <option name="totallyTimeSpent" value="2331000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="46" y="23" width="1874" height="1057" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -620,18 +557,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/helpers.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="285">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+          <folding>
+            <element signature="e#7#31#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/helpers.php">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        <state relative-caret-position="0">
+          <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
           <folding />
         </state>
       </provider>
