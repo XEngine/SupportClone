@@ -3,10 +3,9 @@
     "description": "The Illuminate Support package. Refactor for usage in Optimum7 Turkey Office",
     "license": "MIT",
     "require": {
-        "php": ">=5.6.4",
         "ext-mbstring": "*",
         "doctrine/inflector": "~1.0",
-        "illuminate/contracts": "dev-master",
+        "illuminate/contracts": "5.4.*",
         "symfony/var-dumper" : "*",
         "paragonie/random_compat": "~1.4|~2.0"
     },
