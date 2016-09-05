@@ -1,12 +1,9 @@
 {
     "name": "xengine/support",
-    "description": "The Illuminate Support package. Refactor for usage in Optimum7 Turkey Office",
+    "description": "The Illuminate Support package. Only dd",
     "license": "MIT",
     "require": {
-        "ext-mbstring": "*",
-        "doctrine/inflector": "~1.0",
-        "symfony/var-dumper" : "*",
-        "paragonie/random_compat": "~1.4|~2.0"
+        "symfony/var-dumper" : "*"
     },
     "autoload": {
         "psr-4": {
