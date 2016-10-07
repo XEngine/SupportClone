@@ -12,3 +12,11 @@ if (! function_exists('xdd')) {
         die(1);
     }
 }
+if (! function_exists('xddd')) {
+    function xddd()
+    {
+        array_map(function ($x) {
+            (new Dumper)->dump($x);
+        }, func_get_args());
+    }
+}
